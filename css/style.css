@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 #calculator {
     display: flex;
     flex-direction: row;
@@ -12,4 +17,9 @@
 .user-input {
     display: flex;
     flex-direction: column;
+}
+
+#ticket-price {
+    border: 1px solid red;
+    padding: 10px;
 }
