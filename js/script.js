@@ -17,15 +17,15 @@ calculateButton.addEventListener("click",
         if (ageGroup === "Maggiorenne") {
             let prezzoBiglietto = distanceTrip * prezzoKm;
             let risposta = `${prezzoBiglietto}€`;
-            document.getElementById("ticket-price").innerHTML = risposta;
+            document.getElementById("prezzo-biglietto").innerHTML = risposta;
         } else if (ageGroup === "Minorenne") {
             let prezzoBiglietto = distanceTrip * prezzoKm * (1 - scontoMinorenni);
             let risposta = `${prezzoBiglietto}€`;
-            document.getElementById("ticket-price").innerHTML = risposta;
+            document.getElementById("prezzo-biglietto").innerHTML = risposta;
         } else if (ageGroup === "Over-65") {
             let prezzoBiglietto = distanceTrip * prezzoKm * (1 - scontoOver65);
             let risposta = `${prezzoBiglietto}€`;
-            document.getElementById("ticket-price").innerHTML = risposta;
+            document.getElementById("prezzo-biglietto").innerHTML = risposta;
         }
     }
 )
