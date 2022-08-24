@@ -3,3 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+#calculator {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: column;
+}

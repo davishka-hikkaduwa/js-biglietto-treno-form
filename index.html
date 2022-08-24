@@ -11,6 +11,28 @@
 </head>
 
 <body>
+    <div class="container">
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <div id="calculator">
+            <div class="user-input">
+                <label for="name">Nome e Cognome</label>
+                <input type="text" name="Nome and surname" id="name">
+            </div>
+            <div class="user-input">
+                <label for="distance">Km da percorrere</label>
+                <input type="number" name="distance" id="distance">
+            </div>
+            <div class="user-input">
+                <label for="age">Fascia d'età</label>
+                <select id="age" name="age">
+                    <option value="Minorenne">Minorenne</option>
+                    <option value="Maggiorenne" selected>Maggiorenne</option>
+                    <option value="Over-65">Over-65</option>
+                </select>
+            </div>
+            <button id="calculate">Calcola</button>
+        </div>
+    </div>
 
 </body>
 
